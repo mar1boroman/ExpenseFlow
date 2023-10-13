@@ -1,0 +1,17 @@
+index:
+  name: idx:txn
+  prefix: txn
+
+fields:
+    # define tag fields
+    tag:
+        - name: Category
+    # define text fields
+    text:
+        - name: Narration
+    # define vector fields
+    vector:
+        - name: Narration_Embedding
+          dims: 1536
+          algorithm: flat
+          distance_metric: cosine

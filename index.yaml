@@ -15,3 +15,5 @@ fields:
           dims: 1536
           algorithm: flat
           distance_metric: cosine
+          datatype: float32
+          

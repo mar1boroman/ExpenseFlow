@@ -1,4 +1,4 @@
-Transaction ID,Date and Time,Amount,Transaction Description
+ID,Date,Amount,Narration
 TRX001,2023-01-05 10:23:45,+50.00,Deposit from Employer
 TRX002,2023-01-07 14:32:18,-15.75,DEBIT CARD PURCHASE Uber Help.Uber.Ca
 TRX003,2023-01-10 09:45:30,-30.50,DEBIT CARD PURCHASE XXXXX8046 LYFT *2 RIDES 04-30 LYFT.COM CA

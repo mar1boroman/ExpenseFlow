@@ -24,7 +24,7 @@ def upload_file(vectorizer: OpenAITextVectorizer, output_file_path):
         )
         records = df.to_dict("records")
         create_and_load_index(records)
-        st.dataframe(df)
+        st.dataframe(df.drop(columns=["Narration_Embedding"], axis=1))
 
 
 def create_and_load_index(records):
